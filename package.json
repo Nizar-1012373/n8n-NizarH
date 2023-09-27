@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-cloudshift2",
   "version": "0.1.0",
-  "description": "",
+  "description": "cloudshift2",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/Nizar-1012373/n8n-NizarH.git",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Nizar",
+    "email": "1012373@hr.nl"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/Nizar-1012373/n8n-NizarH.git"
   },
   "main": "index.js",
   "scripts": {
@@ -30,12 +30,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/NasaPicsApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/NasaPics/NasaPics.node.js"
     ]
   },
   "devDependencies": {
@@ -48,5 +46,9 @@
     "n8n-workflow": "*",
     "prettier": "^2.7.1",
     "typescript": "~4.8.4"
+  },
+  "dependencies": {
+    "n8n": "^1.7.1",
+    "workflow": "^2.0.6"
   }
 }

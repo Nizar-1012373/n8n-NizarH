@@ -1,0 +1,20 @@
+{
+	"node": "NasaPics",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Miscellaneous"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://www.nasa.gov/multimedia/imagegallery/iotd.html"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://www.nasa.gov/multimedia/imagegallery/iotd.html"
+			}
+		]
+	}
+}
